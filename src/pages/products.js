@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
           Products
         </div>
         <div className="wrapper">
-          <h2 className="section-headline">Products in alphabetic order</h2>
+          <h2 className="section-headline">Products in alphabetic order, Maybe?</h2>
           <ul className="article-list">
             {posts.map(({ node }) => {
               console.log(node.images)
